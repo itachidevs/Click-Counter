@@ -1,0 +1,65 @@
+/* Write your CSS here */
+.container {
+  background-color: #f1f5f8;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.heading {
+  color: #2d3a35;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: Roboto;
+}
+.counter {
+  color: #c20a72;
+}
+.instruction {
+  color: #2d3a35;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: Roboto;
+}
+.button {
+  height: 28px;
+  width: 120px;
+  text-align: center;
+  background-color: #007bff;
+  padding: 2px 2px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #ffff;
+  border-radius: 2px;
+  border-width: 0px;
+  outline: none;
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .heading {
+    font-size: 3rem;
+  }
+  .instruction {
+    font-size: 2rem;
+  }
+  .button {
+    width: 200px;
+    height: 50px;
+    font-size: 1.5rem;
+  }
+  
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .heading {
+    font-size: 3rem;
+  }
+  .instruction {
+    font-size: 1.6rem;
+  }
+  .button {
+    width: 200px;
+    height: 50px;
+    font-size: 1.5rem;
+  }
+}
